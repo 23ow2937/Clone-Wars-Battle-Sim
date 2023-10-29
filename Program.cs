@@ -67,11 +67,10 @@ namespace Game
             ctnum = rnd.Next(1000, 10000).ToString();
             planet = planets[rnd.Next(0, planets.Length)];
             battalion = rnd.Next(100, 1000).ToString();
-            Thread.Sleep(1000);
+            Console.WriteLine("\nCT-9867: 'Congratulations trooper, here are the details of your first deployment as an officer.'\n");
+            Console.WriteLine("Press any key to open letter:"); Console.ReadKey(); Console.Clear();
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
             Console.WriteLine("         @@@@@@@@@@@@@         \r\n      @@@   @@   @@   @@@      \r\n    @@  @@@@       @@@@  @@    \r\n  @@          @@@          @@  \r\n @@ @@   @    @@@    @@  @@ @@ \r\n@@ @@   @@@@  @@@  @@@@   @@ @@\r\n@# @      @@@@@@@@@@@      @ %@\r\n@  @       @@@@@@@@@       @% @\r\n@    @@@@@@@@@@@@@@@@@@@@@    @\r\n@  @       @@@@@@@@@       @  @\r\n@= @      @@@@@@@@@@@      @ *@\r\n@@ @@   @@@@  @@@  @@@@   @@ @@\r\n @@ @@  =@    @@@    @@  @@ @@ \r\n  @@          @@@          @@  \r\n    @@  @@@@       @@@@  @@    \r\n      @@@   @@   @@   @@@      \r\n         @@@@@@@@@@@@@         ");
-            Console.WriteLine("\nCT-9867: 'Congratulations trooper, here are the details of your first deployment as an officer.'\n");
-            Thread.Sleep(1000);
             Console.WriteLine("\nNumber: CT-" + ctnum + "        AKA: " + name + "       Rank: Captain");
             Console.WriteLine("Battalion: " + battalion + "\nArea of Deployment: " + planet);
             stage += 1;

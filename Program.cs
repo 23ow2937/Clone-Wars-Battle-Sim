@@ -105,19 +105,19 @@ namespace Game
                 totalgunships += gunshipsa;
                 if (totalgunships < 4)
                 {
-                    Console.WriteLine("Option B?\n");
+                    Console.WriteLine("Option B:\n");
                     gunshipsb = int.Parse(Console.ReadLine());
                     totalgunships += gunshipsb;
                 }
                 if (totalgunships < 4)
                 {
-                    Console.WriteLine("Option C?\n");
+                    Console.WriteLine("Option C:\n");
                     gunshipsc = int.Parse(Console.ReadLine());
                     totalgunships += gunshipsc;
                 }
                 if (totalgunships < 4)
                 {
-                    Console.WriteLine("Option D?\n");
+                    Console.WriteLine("Option D:\n");
                     gunshipsd = int.Parse(Console.ReadLine());
                     totalgunships += gunshipsd;
                 }
